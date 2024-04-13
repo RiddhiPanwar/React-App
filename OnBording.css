@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://st3.depositphotos.com/13324256/16360/i/450/depositphotos_163603036-stock-photo-pizza-ingredients-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box {
+    width: 300px;
+    height: 420px;
+    background: #fe8c00;
+    padding: 24px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 48px;
+  }
+    
+
+h1{
+    width: 252px;
+    height: 120px;
+    top: 404px;
+    left: 62px;
+    padding-left: 20px;
+  }
+  .indicator {
+    width: 80px;
+    height: 6px;
+    top: 616px;
+    left: 148px;
+    gap: 4px;
+  }
+  .nav {
+    width: 247px;
+    height: 20px;
+    top: 720px;
+    left: 64px;
+    justify-content: space-between;
+    padding-top: 140px;
+  }
+  .arrow-button {
+
+    padding-top: 15px;
+    padding-left: 2px;
+    gap: 8px;
+    border-radius: 84px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px;
+    justify-items: center;
+    display: flexbox;
+  
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .indicator_two {
+    padding-top: 20px;
+    padding-left: 5px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+  }

@@ -1,0 +1,22 @@
+.container{
+    position: relative;
+    width:fit-content;
+    margin: 0 auto;
+
+}
+.container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+}
+.container img:last-child{
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    margin-top: 10px;
+    bottom: -322px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP-filled</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="Top Navigation.png" class="img" alt="otp reverse page" onclick="reverse()">
+        <h2>Email verification</h2>
+        <p>Enter the verification code we send you on:
+            ************@gmail.com|</p>
+        <div class="otp-section">
+            <p>The OTP will expire in <span id="expire">30</span> </p>
+            <div class="row">
+                <div id="otpInput">
+                    <input type="number" id="digit1" maxlength="1" />
+                    <input type="number" id="digit2" maxlength="1" />
+                    <input type="number" id="digit3" maxlength="1" />
+                    <input type="number" id="digit4" maxlength="1" />
+                    <br>
+                </div>
+                <p>Didn't receive code? <a href="#" id="request">Resend</a></p>
+                <br>
+                <button class="btn" id="verifyButton" type="button" onclick="resetPage()">Continue</button>
+                <img src="Numeric Keyboard.png" class="imgnumber" alt="Keyboard">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

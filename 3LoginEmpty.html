@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="LoginEmpty.css" />
+    <title>Login into your account</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="heading1">Login to your account.</h1>
+        <p class="para">Please sign in to your account</p>
+        <h2 class="head2">Email address</h2>
+        <input type="email" class="inp" name="email" placeholder="Enter email" required>
+        <!-- <input class="inp" type="text" placeholder="Enter email"> -->
+        <h2 class="head2">Password</h2>
+        <input type="password" class="inp" name="password" placeholder="Password" required>
+        <!-- <input class="inp" type="password" placeholder="Password"> -->
+        <h3 class="head3" onclick="forgot()">Forgot password?</h3>
+        <button class="signin-btn" onclick="signIn()">Sign In</button>
+        <p class="seperator">------------------ Or sign in with --------------------</p>
+        <img class="google-img" src="google.png" alt="google icon">
+        <h4 class="head4">Don't have an account? <a href="#" class="register" onclick="LogginFilledPage()">Register</a>
+        </h4>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

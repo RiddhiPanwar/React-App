@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    width: fit-content; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the images fill the container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container img:last-child {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block;
+    margin-top: 10px; /* Adjust the margin to separate the images */
+    bottom: -322px;
+}
